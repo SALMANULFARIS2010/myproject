@@ -1,0 +1,30 @@
+.container {
+    margin: 20px;
+  }
+  
+  .leave-item {
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .leave-heading {
+    font-weight: bold;
+  }
+  
+  .leave-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .leave-details > div {
+    flex: 1;
+    padding: 5px;
+  }
+  
+  .leave-details > div:nth-child(odd) {
+    font-weight: bold;
+  }
+  

@@ -1,0 +1,25 @@
+/* PerformanceChart.css */
+
+.performance-chart-container {
+    padding: 20px;
+    background-color: #da2020; /* Initial background color */
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    animation-name: changeColor; /* Name of the animation */
+    animation-duration: 5s; /* Duration of the animation */
+    animation-iteration-count: infinite; /* Repeat the animation infinitely */
+    animation-direction: alternate; /* Reverse the animation direction on each iteration */
+  }
+  
+  @keyframes changeColor {
+    0% {
+      background-color: #d7d0d0; /* Initial background color */
+    }
+    50% {
+      background-color: #d8eed8; /* Intermediate color */
+    }
+    100% {
+      background-color: #bbb3c9; /* Final background color */
+    }
+  }
+  

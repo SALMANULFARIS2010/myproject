@@ -1,0 +1,22 @@
+.app{
+    display:flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.app h2{
+    color:azure;
+    background-color: cadetblue;
+    margin-bottom: 50px;
+}
+.wrapper{
+    width:100%;
+    display:grid;
+    grid-template-columns: (3,1fr);
+    gap:20px;
+}
+.barchart{
+    padding: 10px;
+}

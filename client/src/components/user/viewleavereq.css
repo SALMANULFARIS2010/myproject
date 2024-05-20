@@ -1,0 +1,37 @@
+/* viewleavereq.css */
+
+.container {
+    padding: 20px;
+  }
+  
+  .leave-item {
+    margin-bottom: 20px;
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .leave-details {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+  }
+  
+  .leave-details div {
+    flex: 1; /* Take equal space within the flex container */
+  }
+  
+  .leave-details button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 16px;
+    cursor: pointer;
+  }
+  
+  .leave-details button:hover {
+    background-color: #0056b3;
+  }
+  

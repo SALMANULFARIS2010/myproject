@@ -1,0 +1,53 @@
+.expansion-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    background-color: #000;
+    color: #fff;
+  }
+  
+  .expansion-content {
+    max-width: 50%;
+  }
+  
+  .expansion-content h1,
+  .expansion-content h2,
+  .expansion-content p {
+    margin: 0 0 20px 0;
+  }
+  
+  .partner-button {
+    background-color: #f00;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .partner-button:hover {
+    background-color: #c00;
+  }
+  
+  .expansion-globe img {
+    max-width: 100%;
+    height: auto;
+  }
+  /* ExpansionAnnouncement.css */
+
+.expansion-globe img {
+    width: 100%; /* Adjust size as needed */
+    height: auto; /* Maintain aspect ratio */
+    animation: rotateGlobe 10s linear infinite; /* Apply rotation animation */
+  }
+  
+  @keyframes rotateGlobe {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  

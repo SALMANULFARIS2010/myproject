@@ -1,0 +1,90 @@
+.attendance-container {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  .attendance-title {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #1b1d1c; /* Ant Design primary color */
+  }
+  
+  .input-space {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    background-color: #dfdedf; /* Card background color */
+    border-radius: 8px; /* Card border radius */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Card shadow */
+    padding: 20px; /* Card padding */
+  }
+  
+  .input-space .ant-input {
+    width: 100%; /* Full width input within the card */
+    padding: 10px;
+    border: 2px solid #1c9df3; /* Ant Design primary color */
+    border-radius: 5px;
+    transition: border-color 0.3s ease; /* Smooth transition on hover */
+  }
+  
+  .input-space .ant-input:focus {
+    animation: borderAnimation 2s infinite alternate; /* CSS animation for dynamic border color */
+    border-width: 4px; /* Increase border thickness */
+  }
+  
+  @keyframes borderAnimation {
+    0% {
+      border-color: #1890ff; /* Start color (Ant Design primary color) */
+    }
+    50% {
+      border-color: #ff4d4f; /* Mid color */
+    }
+    100% {
+      border-color: #52c41a; /* End color */
+    }
+  }
+  
+  .input-space .ant-btn-primary {
+    margin-top: 10px;
+    background-color: #1890ff; /* Ant Design primary color */
+    border-color: #1890ff; /* Ant Design primary color */
+    transition: background-color 0.3s ease, border-color 0.3s ease; /* Smooth transition on hover */
+  }
+  
+  .input-space .ant-btn-primary:hover {
+    background-color: #40a9ff; /* Lighter shade of primary color on hover */
+    border-color: #40a9ff; /* Lighter shade of primary color on hover */
+  }
+  
+  .error-text {
+    margin-bottom: 20px;
+    color: #f5222d; /* Ant Design error color */
+  }
+  
+  .attendance-records-title {
+    margin-bottom: 10px;
+    color: #1d191c; /* Dark gray */
+  }
+  
+  .attendance-item {
+    background-color: #cc479b; /* Card background color */
+    border: 1px solid #e8e8e8; /* Light gray border */
+    border-radius: 8px; /* Card border radius */
+    padding: 20px; /* Card padding */
+    margin-bottom: 20px; /* Spacing between cards */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Card shadow */
+    transition: transform 0.2s ease, box-shadow 0.3s ease; /* Smooth transition on hover */
+  }
+  
+  .attendance-item:hover {
+    transform: translateY(-5px) scale(1.05); /* Move card up and increase size on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Increase shadow on hover */
+  }
+  
+  /* New styles for moving effect */
+  .attendance-item {
+    transform-origin: center bottom; /* Set transform origin to center bottom */
+  }
+  

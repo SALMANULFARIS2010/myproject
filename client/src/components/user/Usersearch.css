@@ -1,0 +1,38 @@
+/* Usersearch.css */
+
+/* Style for the search input */
+.form-control {
+    margin-bottom: 10px;
+}
+
+/* Style for the table */
+.table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+/* Style for table headers */
+.table th {
+    background-color: #007bff;
+    color: #fff;
+    padding: 8px;
+    text-align: center;
+}
+
+/* Style for table cells */
+.table td {
+    padding: 8px;
+    text-align: center;
+}
+
+/* Style for delete button */
+.btn-danger {
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+
+/* Hover effect for delete button */
+.btn-danger:hover {
+    background-color: #c82333;
+    border-color: #bd2130;
+}

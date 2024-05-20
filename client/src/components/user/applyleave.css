@@ -1,0 +1,64 @@
+.apply-leave-form {
+  width: 600px;
+  background-color: #f8f9fa; /* Light background color */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.apply-leave-form h2 {
+  color: #333; /* Dark text color */
+  margin-bottom: 20px;
+}
+
+.apply-leave-form .form-group {
+  margin-bottom: 20px;
+}
+
+.apply-leave-form label {
+  font-weight: bold;
+  color: #555; /* Medium-dark text color */
+}
+
+.apply-leave-form input,
+.apply-leave-form textarea {
+  border: 1px solid #327e8e; /* Light gray border */
+  border-radius: 4px;
+  padding: 8px;
+  width: 100%;
+  transition: border-color 0.3s ease;
+}
+
+.apply-leave-form input[type="date"],
+.apply-leave-form input[type="text"] {
+  background-color: #abc4e0; /* White background */
+}
+
+.apply-leave-form textarea {
+  resize: vertical; /* Allow vertical resizing of textarea */
+}
+
+.apply-leave-form button[type="submit"] {
+  background-color: #aac4e0; /* Blue button color */
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  cursor: pointer;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.apply-leave-form button[type="submit"]:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+  transform: translateY(-2px);
+}
+
+.apply-leave-form input:focus,
+.apply-leave-form textarea:focus {
+  border-color: #4800b3; /* Blue border color on focus */
+}
+
+.apply-leave-form button[type="submit"]:focus {
+  outline: none; /* Remove outline on button focus */
+}
